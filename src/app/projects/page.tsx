@@ -15,7 +15,7 @@ const projects: Project[] = [
   {
     name: "css2wind",
     description:
-      "Learn TailwindCSS by playing a minigame: there are eight CSS properties that you must translate to the equivalent TailwindCSS utility. Bet you can't get 8/8.",
+      "Learn TailwindCSS by playing a minigame: there are eight CSS properties that you must translate to the equivalent TailwindCSS utility. Bet you can&apos;t get 8/8.",
     url: "https://css2wind.com",
     imageUrl: "/projects/css2wind.png",
     githubUrl: "https://github.com/LukeberryPi/css2wind",
@@ -34,7 +34,7 @@ const projects: Project[] = [
     ),
   },
   {
-    name: "King's Cross Cinema Schedule",
+    name: "King&apos;s Cross Cinema Schedule",
     description:
       "A simpler way to visualize the movies in the Everyman in the Canal 2025 in London. I watched Mean Girls and it was amazing.",
     url: "https://kings-cross-cinema-schedule-2025.vercel.app/",

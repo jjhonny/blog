@@ -9,7 +9,7 @@ import dynamic from "next/dynamic";
 
 export const metadata: Metadata = {
   title: "Jhonny Dias",
-  description: "Jhonny Dias's personal website",
+  description: "Jhonny Dias&apos;s personal website",
 };
 
 const karla = Karla({

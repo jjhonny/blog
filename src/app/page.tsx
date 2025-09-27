@@ -98,7 +98,7 @@ export default function HomePage() {
   return (
     <div className="flex flex-col gap-6">
       <p className="text-sm">
-        I'm a Software Engineer with 2 years of experience. I love transforming the world through code.
+        I&apos;m a Software Engineer with 2 years of experience. I love transforming the world through code.
         I also enjoy learning new things, going to the gym, playing video games, and I really love White Monster.
       </p>
       <div className="divide-y divide-zinc-400 overflow-hidden rounded ring-1 ring-zinc-400 dark:divide-zinc-500 dark:ring-zinc-500">
