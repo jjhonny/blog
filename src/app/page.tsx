@@ -49,32 +49,26 @@ const externalLinks: Link[] = [
   {
     name: "LinkedIn",
     description: "follow my career",
-    url: "https://linkedin.com/in/lukeberrypi",
+    url: "https://www.linkedin.com/in/jhonny-dias-/",
     icon: <SiLinkedin className="fill-[#0077B5] dark:fill-zinc-200" />,
   },
   {
     name: "GitHub",
     description: "steal my code",
-    url: "https://github.com/lukeberrypi",
+    url: "https://github.com/jjhonny",
     icon: <SiGithub />,
   },
   {
     name: "YouTube",
     description: "watch me talk",
-    url: "https://youtube.com/@lukeberrypi",
+    url: "https://www.youtube.com/@dev.jhonny",
     icon: <SiYoutube className="fill-[#FF0032] dark:fill-zinc-200" />,
   },
   {
     name: "X (formerly Twitter)",
     description: "read my mind",
-    url: "https://x.com/lukeberrypi",
+    url: "https://x.com/httpsjhonny",
     icon: <XLogo />,
-  },
-  {
-    name: "Get 10% OFF Raycast Pro",
-    description: "upgrade your workflow",
-    url: "https://www.raycast.com/pro?via=lukeberrypi",
-    icon: <RaycastLogo />,
   },
 ];
 
@@ -104,9 +98,8 @@ export default function HomePage() {
   return (
     <div className="flex flex-col gap-6">
       <p className="text-sm">
-        London-based Brazilian obsessed with UI for a decade. Working as a
-        Software Engineer for half that time. I love Raycast, TailwindCSS,
-        DJing, playing football, and creating pretty websites.
+        I'm a Software Engineer with 2 years of experience. I love transforming the world through code.
+        I also enjoy learning new things, going to the gym, playing video games, and I really love White Monster.
       </p>
       <div className="divide-y divide-zinc-400 overflow-hidden rounded ring-1 ring-zinc-400 dark:divide-zinc-500 dark:ring-zinc-500">
         {externalLinks.map((link: Link) => (
@@ -116,14 +109,14 @@ export default function HomePage() {
       <div className="flex justify-center gap-6 max-sm:flex-col-reverse sm:justify-between">
         <div className="flex flex-col justify-center gap-4 max-sm:items-center">
           <div className="group -m-8 flex select-all items-center gap-3 p-8 transition-transform">
-            lukeberrypi@gmail.com
+            jhonnydias53@gmail.com
             <div className="inline-flex items-center gap-3">
               {/* TODO add copy email
                 <button className="text-zinc-800 sm:group-hover:inline-flex dark:text-zinc-200">
                 <Copy className="size-4" />
               </button> */}
               <a
-                href="mailto:lukeberrypi@gmail.com"
+                href="mailto:jhonnydias53@gmail.com"
                 className="text-zinc-800 dark:text-zinc-200"
               >
                 <Send strokeWidth={1.4} className="size-4" />
@@ -135,7 +128,7 @@ export default function HomePage() {
             Online
           </span>
         </div>
-        <div className="flex flex-col gap-2">
+        {/* <div className="flex flex-col gap-2">
           <a
             href="/luke-berry-cv.pdf"
             download="Luke-Berry-CV.pdf"
@@ -144,7 +137,7 @@ export default function HomePage() {
             <span className="text-nowrap">Download my CV</span>
             <Download strokeWidth={1.4} className="size-5 max-sm:hidden" />
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
